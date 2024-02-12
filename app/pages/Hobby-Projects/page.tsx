@@ -36,14 +36,14 @@ export default function Page() {
         </div>
         <div>
         <h2 className={styles.projLink}>Electronic Compositions</h2>
-        <p className={styles.projText}>Here are a few projects of me figuring out how electronic composition works, and how to use FL Studio.</p>
+        <p className={styles.projText}>Here are a few projects of me figuring out how electronic composition works and how to use FL Studio.</p>
         <p className={styles.projText}>-------[Return]--------------[Absense]---------------[Cut]-------</p>
         <div className={styles.songs}>
         <iframe className={styles.songs} src="https://drive.google.com/file/d/10Uh9OkBTE4xvArhpdp3FbxecaT_pfBig/preview" width="64" height="64" allow="autoplay"></iframe>
         <iframe className={styles.songs} src="https://drive.google.com/file/d/15NPBj_4fa6odwIqPd7iHiJlNhhI3cBBg/preview" width="64" height="64" allow="autoplay"></iframe>
         <iframe className={styles.songs} src="https://drive.google.com/file/d/1ID8F2l48sW5xD2XyrmN4VZ-HOhsQjcDa/preview" width="64" height="64" allow="autoplay"></iframe>
         </div>
-        <p className={styles.projText}>[Return]: This one definetly took me the longest as it's the most complex piece I've made. It's also the one I learnt the most while making. From chord progressions, to orchestration, to mixing (although I am still quite the amatuer, haha).</p>
+        <p className={styles.projText}>[Return]: This one definitely took me the longest as it's the most complex piece I've made. It's also the one I learnt the most while making. From chord progressions, to orchestration, to mixing (although I am still quite an amateur, haha).</p>
         <p className={styles.projText}>[Absense]: I made this piece to try to make something more calm, messing around with cool chords I normally wouldn't use. It's sort of like a melancholic menu theme.</p>
         <p className={styles.projText}>[Cut]: This piece is almost entirely created using a "release-cut" piano. It's what gives it that glitchy cutoff. I really liked how it sounded, so I made a quick little piece chopping lots of notes together.</p>
         </div>

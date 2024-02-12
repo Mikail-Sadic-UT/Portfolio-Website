@@ -20,8 +20,8 @@ export default function Page() {
         <h2 className={styles.projName}>Portfolio Website | Jan-Feb 2024</h2>
         <p className={styles.projText}>My first main engineering project that I'm tackling to use for future projects I plan on doing. Built on Next.js (a React framework), html and css.</p>
         <p className={styles.ghubText}>Github:{" "}
-          <Link className={styles.projLink} href="https://github.com/Mikail-Sadic-UT/Portfolio" target="_blank" rel="noopener noreferrer">
-            https://github.com/Mikail-Sadic-UT/Portfolio
+          <Link className={styles.projLink} href="https://github.com/Mikail-Sadic-UT/Portfolio-Website" target="_blank" rel="noopener noreferrer">
+          https://github.com/Mikail-Sadic-UT/Portfolio-Website
           </Link>
         </p>
         </div>
@@ -30,8 +30,8 @@ export default function Page() {
         <p className={styles.projText}>The final project for my ECE-319K (Intro to Embedded Systems) class, which is a game built on C and running off of the TI-M0+ microcontroller.</p>
         </div>
         <div>
-        <h2 className={styles.projName}>The Anish Bot | (Future) 2024</h2>
-        <p className={styles.projText}>A project I am planning on doing with a group of friends this year.</p>
+        <h2 className={styles.projName}>El Robot | 2024</h2>
+        <p className={styles.projText}>A project I'm working on with a group of friends that's in the planning stage currently.</p>
         </div>
       </div>
     </main>
