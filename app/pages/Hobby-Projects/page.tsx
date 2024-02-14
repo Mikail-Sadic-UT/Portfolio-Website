@@ -18,12 +18,12 @@ export default function Page() {
         <h1 className={styles.mainTitle}>Hobby Projects</h1>
         <div>
           <h1 className={styles.music}>Music</h1>
-          <p className={styles.musicSubtext}>Music has always been a big part of my life, from being a part of the school band, to performing with a chamber ensemble group, and to arranging and composing pieces. It's something that's become an essential part of me.</p>
+          <p className={styles.musicSubtext}>Music has always been a big part of my life, from being a member of the school band to performing with a chamber ensemble group, and to arranging and composing pieces. It's something that has become an essential part of me.</p>
         </div>
         
         <div>
         <h2 className={styles.projLink}>Sheet Music</h2>
-        <p className={styles.projText}>These are some arrangements I made of some songs I liked in highschool to get a better understanding of how music is written and works. You can listen to it on Musescore.</p>
+        <p className={styles.projText}>These are some arrangements I made of songs I liked in high school to gain a better understanding of how music is written and works. You can listen to them on Musescore.</p>
         <div className={styles.pdf}>
           <iframe src="https://drive.google.com/file/d/1giSplN0qk6hIXWgs7Ko7nNWbwRsKBKDh/preview" width="420" height="500" allow="autoplay"></iframe>
           <iframe src="https://drive.google.com/file/d/1eiKmMs6nFXgGLW19w0vjJMv4vssDkNWs/preview" width="420" height="500" allow="autoplay"></iframe>
@@ -43,9 +43,9 @@ export default function Page() {
         <iframe className={styles.songs} src="https://drive.google.com/file/d/15NPBj_4fa6odwIqPd7iHiJlNhhI3cBBg/preview" width="64" height="64" allow="autoplay"></iframe>
         <iframe className={styles.songs} src="https://drive.google.com/file/d/1ID8F2l48sW5xD2XyrmN4VZ-HOhsQjcDa/preview" width="64" height="64" allow="autoplay"></iframe>
         </div>
-        <p className={styles.projText}>[Return]: This one definitely took me the longest as it's the most complex piece I've made. It's also the one I learnt the most while making. From chord progressions, to orchestration, to mixing (although I am still quite an amateur, haha).</p>
-        <p className={styles.projText}>[Absense]: I made this piece to try to make something more calm, messing around with cool chords I normally wouldn't use. It's sort of like a melancholic menu theme.</p>
-        <p className={styles.projText}>[Cut]: This piece is almost entirely created using a "release-cut" piano. It's what gives it that glitchy cutoff. I really liked how it sounded, so I made a quick little piece chopping lots of notes together.</p>
+        <p className={styles.projText}>[Return]: This one definitely took me the longest as it's the most complex piece I've made. It's also the one from which I learned the most. I dived deeper into chord progressions, orchestration, and mixing, though I have to say I'm still quite an amateur, haha.</p>
+        <p className={styles.projText}>[Absense]: I made this piece to try to make something slower and more calm, messing around with cool chords I normally wouldn't use. It's sort of like a melancholic menu theme.</p>
+        <p className={styles.projText}>[Cut]: This piece is almost entirely created using a "release-cut" piano (it's what gives it that glitchy cutoff). I really liked how it sounded, so I made a quick little piece chopping lots of notes together.</p>
         </div>
         <div>
         <h2 className={styles.projLink}>Extras</h2>

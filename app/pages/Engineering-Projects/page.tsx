@@ -18,7 +18,7 @@ export default function Page() {
         <h1 className={styles.mainTitle}>Engineering Projects</h1>
         <div>
         <h2 className={styles.projName}>Portfolio Website | Jan-Feb 2024</h2>
-        <p className={styles.projText}>My first main engineering project that I'm tackling to use for future projects I plan on doing. Built on Next.js (a React framework), html and css.</p>
+        <p className={styles.projText}>My first main engineering project that I'm tackling to use for future projects I plan on doing. Built on Next.js (a React framework), HTML and CSS.</p>
         <p className={styles.ghubText}>Github:{" "}
           <Link className={styles.projLink} href="https://github.com/Mikail-Sadic-UT/Portfolio-Website" target="_blank" rel="noopener noreferrer">
           https://github.com/Mikail-Sadic-UT/Portfolio-Website

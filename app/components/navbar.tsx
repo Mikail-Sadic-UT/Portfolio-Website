@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
             <div className={styles.slideDivA}>
               <div className={styles.slideText}>
                 <p className={styles.aboutText}>
-                Current Freshmen at The University of Texas at Austin studying Electrical
+                Current Freshman at The University of Texas at Austin studying Electrical
                 and Computer Engineering. I was born in 2005 in Cedar Park, Texas, and I have an interest and passion in engineering and programming.
                 </p>
               </div>
@@ -62,8 +62,8 @@ const Navbar: React.FC = () => {
                   </Link>
               </p>
               <p className={styles.ghub}>LinkedIn:{" "}
-                  <Link className={styles.ghub} href="https://www.linkedin.com/in/mikail-sadic-9b9ab5244/" target="_blank" rel="noopener noreferrer">
-                    https://www.linkedin.com/in/mikail-sadic-9b9ab5244/
+                  <Link className={styles.ghub} href="https://www.linkedin.com/in/mikail-sadic/" target="_blank" rel="noopener noreferrer">
+                    https://www.linkedin.com/in/mikail-sadic/
                   </Link>
               </p>
             </div>
