@@ -66,6 +66,9 @@ const Navbar: React.FC = () => {
                     https://www.linkedin.com/in/mikail-sadic/
                   </Link>
               </p>
+              <p className={styles.projectsText}>
+                  <Link className={styles.projectsText} href="https://drive.google.com/file/d/1tyvibBXBPmK1svmw-fmEd6FkxRr-DcEv/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</Link>
+                </p>
             </div>
           )}
         </li>

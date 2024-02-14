@@ -37,11 +37,3 @@ export default function Page() {
     </main>
   )
 }
-
-/*
-        <p className={styles.ghubText}>Github:{" "}
-          <Link className={styles.ghub} href="https://github.com/Mikail-Sadic-UT" target="_blank" rel="noopener noreferrer">
-            https://github.com/Mikail-Sadic-UT
-          </Link>
-        </p>
-        */
