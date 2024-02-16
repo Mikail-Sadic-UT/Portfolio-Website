@@ -7,6 +7,15 @@ const Navbar: React.FC = () => {
   const [showAboutText, setShowAboutText] = useState(false);
   const [showProjectsText, setShowProjectsText] = useState(false);
   const [showContactText, setShowContactText] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  const copyToClipboard = () =>{
+    const email = "mikail.sadic@utexas.edu";
+    navigator.clipboard.writeText(email).then(()=> {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1000);
+    })
+  }
 
   const handleAboutClick = () => {
     setShowAboutText(!showAboutText);
@@ -19,6 +28,8 @@ const Navbar: React.FC = () => {
   const handleContactClick = () => {
     setShowContactText(!showContactText);
   };
+
+
 
   return (
     <nav className={styles.main}>
@@ -55,7 +66,7 @@ const Navbar: React.FC = () => {
           <button onClick={handleContactClick}><div className={styles.ex}>Extra</div></button>
           {showContactText && (
             <div className={styles.slideText}>
-              <p className={styles.contactText}>Email: mikail.sadic@utexas.edu</p>
+              <p className={styles.contactText}>Email: <span className={styles.email}><span className={styles.email} onClick={copyToClipboard}>{copied ? "Copied!" : "mikail.sadic@utexas.edu"}</span></span></p>
                 <p className={styles.ghub}>Github:{" "}
                   <Link className={styles.ghub} href="https://github.com/Mikail-Sadic-UT" target="_blank" rel="noopener noreferrer">
                     https://github.com/Mikail-Sadic-UT

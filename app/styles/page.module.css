@@ -249,6 +249,15 @@ transition: background-size 250ms, color 420ms;
   color: rgb(128, 128, 128);
 }
 
+.email {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 250ms;
+}
+
+.email :hover {
+  color: rgb(128, 128, 128);
+}
 
 
 /*.main {
