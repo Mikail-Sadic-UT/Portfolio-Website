@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
             <div className={styles.slideDivA}>
               <div className={styles.slideText}>
                 <p className={styles.aboutText}>
-                Current Freshman at The University of Texas at Austin studying Electrical
+                Current Sophomore at The University of Texas at Austin studying Electrical
                 and Computer Engineering. I was born in 2005 in Cedar Park, Texas, and I have an interest and passion in engineering and programming.
                 </p>
               </div>
