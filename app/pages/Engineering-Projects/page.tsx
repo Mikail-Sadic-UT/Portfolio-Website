@@ -50,6 +50,7 @@ export default function Page() {
            The plan is to build it from the ground up as much as we can, from CAD, to PCBs, to Controllers, to Software.
             The idea is to drive the RC car in VR with a virtual wheel and real-time video feedback.
              This project includes the creation of custom CAD models, Unity C# VR integration, embedded C programming, and real-time video & control transmition.</p>
+        <p className={styles.projText}>The project currently has multiple aspects fully working and/or at a proof of concept stage. We are expected to finish by the end of 2024.</p>
         <p className={styles.ghubText}>Github:{" "}
           <Link className={styles.projLink} href="https://github.com/Basement-Builders-Club" target="_blank" rel="noopener noreferrer">
           https://github.com/Basement-Builders-Club
