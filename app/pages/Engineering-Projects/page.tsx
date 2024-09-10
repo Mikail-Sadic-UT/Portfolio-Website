@@ -28,8 +28,10 @@ export default function Page() {
         <div>
        <h2 className={styles.projName}>Microcontroller Game | Apr 2024</h2>
         <p className={styles.projText}>The final project for my ECE-319K (Intro to Embedded Systems) class, which is a game built on C and running off of the TI-M0+ microcontroller.</p>
-        <p className={styles.projText}>The game I made is a bullet-hell game, where the objective is to dodge the bullets shot from the boss while shooting back. 
-        The game's main points are its difficulty, smoothness despite the number of entities on the screen, and the bullet patterns and boss phases themselves.</p>
+        <p className={styles.projText}>I made a bullet-hell style game, PASS//FAIL, where the objective is to dodge large numbers of bullets shot from the boss while shooting back. 
+        The game's main points are its difficulty, smoothness despite the number of entities on the screen, and the bullet patterns and boss phases themselves.
+        It is entirely writted in C, consisting of 1,800+ lines of code, including custom driver implementation. There was also extensive player testing to fine-tune 
+        controls, difficulty, and overall user experience.</p>
         <p className={styles.projText}>This game was the winner of my class competition, and came 5th overall in the combined class competition.</p>
         <p className={styles.ghubText}>Youtube:{" "}
           <Link className={styles.projLink} href="https://www.youtube.com/watch?v=lAslunfPq5c" target="_blank" rel="noopener noreferrer">
