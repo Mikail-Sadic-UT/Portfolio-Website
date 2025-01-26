@@ -8,6 +8,7 @@ const Navbar: React.FC = () => {
   const [showProjectsText, setShowProjectsText] = useState(false);
   const [showContactText, setShowContactText] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [hovered, setHovered] = useState(false);
 
   const copyToClipboard = () =>{
     const email = "mikail.sadic@utexas.edu";
@@ -66,7 +67,14 @@ const Navbar: React.FC = () => {
           <button onClick={handleContactClick}><div className={styles.ex}>Extra</div></button>
           {showContactText && (
             <div className={styles.slideText}>
-              <p className={styles.contactText}>Email: <span className={styles.email}><span className={styles.email} onClick={copyToClipboard}>{copied ? "Copied!" : "mikail.sadic@utexas.edu"}</span></span></p>
+              <p className={styles.contactText}>
+                Email:&nbsp;
+                <span className={styles.email}>
+                  <span className={styles.email} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} onClick={copyToClipboard}>
+                    {copied ? "________Copied!________" : hovered ? "_____Click to Copy_____" : "mikail.sadic@utexas.edu"}
+                  </span>
+                </span>
+              </p>
                 <p className={styles.ghub}>Github:{" "}
                   <Link className={styles.ghub} href="https://github.com/Mikail-Sadic-UT" target="_blank" rel="noopener noreferrer">
                     https://github.com/Mikail-Sadic-UT
