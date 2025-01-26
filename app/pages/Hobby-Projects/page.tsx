@@ -37,7 +37,7 @@ export default function Page() {
         <div>
         <h2 className={styles.projLink}>Electronic Compositions</h2>
         <p className={styles.projText}>Here are a few projects of me figuring out how electronic composition works and how to use FL Studio.</p>
-        <p className={styles.projText}>-------[Return]------------[Absense]-------------[Cut]-------</p>
+        <p className={styles.projText}>-------[Return]------------[Absense]--------------[Cut]-------</p>
         <div className={styles.songs}>
         <iframe className={styles.songs} src="https://drive.google.com/file/d/10Uh9OkBTE4xvArhpdp3FbxecaT_pfBig/preview" width="64" height="64" allow="autoplay"></iframe>
         <iframe className={styles.songs} src="https://drive.google.com/file/d/15NPBj_4fa6odwIqPd7iHiJlNhhI3cBBg/preview" width="64" height="64" allow="autoplay"></iframe>
